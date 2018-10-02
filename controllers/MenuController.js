@@ -46,6 +46,10 @@ module.exports = class MenuController {
         this.main();
     }
 
+    remindMe() {
+        return "Learning is a life-long pursuit";
+    }
+
     addContact() {
         this.clear();
         console.log("addContact called");
