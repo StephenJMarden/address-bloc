@@ -1,0 +1,24 @@
+{
+  "name": "address-bloc",
+  "version": "1.0.0",
+  "description": "A command-line address book in node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenJMarden/address-bloc.git"
+  },
+  "keywords": [
+    "command-line",
+    "node",
+    "address"
+  ],
+  "author": "Stephen Marden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenJMarden/address-bloc/issues"
+  },
+  "homepage": "https://github.com/StephenJMarden/address-bloc#readme"
+}
