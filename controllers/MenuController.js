@@ -9,6 +9,7 @@ module.exports = class MenuController {
                 message: "Please choose an option from below: ",
                 choices: [
                     "Add new contact",
+                    "Current date",
                     "Exit"
                 ]
             }
@@ -23,6 +24,9 @@ module.exports = class MenuController {
                 case "Add new contact":
                     this.addContact();
                     break;
+                case "Current date":
+                    this.getDate();
+                    break;
                 case "Exit":
                     this.exit();
                 default:
@@ -33,6 +37,13 @@ module.exports = class MenuController {
         .catch((err) => {
             console.log(err);
         });
+    }
+
+    getDate() {
+        this.clear();
+        const date = new Date();
+        console.log(`The date and current time is: ${date.toLocaleString()}`);
+        this.main();
     }
 
     addContact() {
