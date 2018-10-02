@@ -9,7 +9,7 @@ module.exports = class MenuController {
                 message: "Please choose an option from below: ",
                 choices: [
                     "Add new contact",
-                    "Current date",
+                    "Current date and time",
                     "Exit"
                 ]
             }
@@ -50,6 +50,10 @@ module.exports = class MenuController {
         this.clear();
         console.log("addContact called");
         this.main();
+    }
+
+    getContactCount() {
+        return this.contacts.length;
     }
 
     exit() {
