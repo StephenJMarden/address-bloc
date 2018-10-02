@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/StephenJMarden/address-bloc/issues"
   },
-  "homepage": "https://github.com/StephenJMarden/address-bloc#readme"
+  "homepage": "https://github.com/StephenJMarden/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
 }
